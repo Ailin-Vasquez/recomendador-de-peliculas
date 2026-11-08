@@ -1,0 +1,79 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #1e3a14;
+  background: #e4f7c9 url("fondo.png") center / cover fixed;
+}
+
+.tarjeta {
+  width: 100%;
+  max-width: 640px;
+  padding: 32px;
+  background: rgba(244, 255, 230, 0.93);
+  border: 3px solid #2f6b1a;
+  border-radius: 20px;
+  box-shadow: 0 10px 0 #2f6b1a;
+}
+
+h1 { margin: 0 0 8px; font-size: 1.9rem; color: #1f4d0f; }
+h2 { margin: 0 0 12px; color: #3f8a25; }
+p  { line-height: 1.5; }
+
+label { font-weight: bold; }
+
+input {
+  width: 110px;
+  padding: 8px;
+  margin-left: 6px;
+  font-size: 1rem;
+  border: 2px solid #3f8a25;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.generos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1f4d0f;
+  background: #c8ecA0;
+  border: 2px solid #2f6b1a;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.15s;
+}
+
+button:hover { background: #a9dd6d; transform: translateY(-3px); }
+button.activo { background: #2f6b1a; color: #fff; }
+button:focus-visible, input:focus-visible { outline: 3px solid #ffb703; outline-offset: 2px; }
+
+.resultado {
+  padding: 16px;
+  background: #fff;
+  border-left: 8px solid #3f8a25;
+  border-radius: 12px;
+}
+
+.resultado h3 { margin: 0 0 8px; }
+
+#mensaje .titulo { display: block; font-size: 1.7rem; font-weight: bold; color: #1f4d0f; }
+#mensaje .detalle { color: #3f8a25; font-weight: bold; }
+#mensaje.error { color: #b3261e; font-weight: bold; }
+
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}

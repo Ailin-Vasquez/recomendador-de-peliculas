@@ -1,0 +1,56 @@
+{
+  "2-12": {
+    "Drama": [
+      { "titulo": "El Rey León", "anio": 1994, "descripcion": "Simba aprende a asumir su lugar en el ciclo de la vida." },
+      { "titulo": "Wonder", "anio": 2017, "descripcion": "Auggie entra a la escuela y enseña el valor de la amabilidad." }
+    ],
+    "Comedia": [
+      { "titulo": "Shrek", "anio": 2001, "descripcion": "Un ogro y un burro parlanchín rescatan a una princesa." },
+      { "titulo": "Los Minions", "anio": 2015, "descripcion": "Tres minions buscan a un nuevo jefe a quien servir." }
+    ],
+    "Musical": [
+      { "titulo": "Coco", "anio": 2017, "descripcion": "Miguel viaja a la Tierra de los Muertos para seguir su pasión por la música." },
+      { "titulo": "Moana", "anio": 2016, "descripcion": "Una joven navegante cruza el océano para salvar a su isla." }
+    ],
+    "Crimen": [
+      { "titulo": "Zootopia", "anio": 2016, "descripcion": "Una coneja policía y un zorro resuelven un misterio en la ciudad." },
+      { "titulo": "El Gran Detective Ratón", "anio": 1986, "descripcion": "Un ratón detective investiga un secuestro en Londres." }
+    ]
+  },
+  "13-17": {
+    "Drama": [
+      { "titulo": "Bajo la misma estrella", "anio": 2014, "descripcion": "Dos jóvenes viven una historia de amor y valentía." },
+      { "titulo": "Un lugar en silencio", "anio": 2018, "descripcion": "Una familia sobrevive en un mundo donde el ruido es peligroso." }
+    ],
+    "Comedia": [
+      { "titulo": "Chicas pesadas", "anio": 2004, "descripcion": "Una chica nueva descubre las reglas de la preparatoria." },
+      { "titulo": "Locos de ira", "anio": 2012, "descripcion": "Un grupo de amigos vive la aventura de su vida en un viaje escolar." }
+    ],
+    "Musical": [
+      { "titulo": "High School Musical", "anio": 2006, "descripcion": "Dos estudiantes descubren su pasión por cantar." },
+      { "titulo": "Un golpe de ritmo", "anio": 2012, "descripcion": "Una joven forma un grupo a cappella en la universidad." }
+    ],
+    "Crimen": [
+      { "titulo": "Enola Holmes", "anio": 2020, "descripcion": "La hermana menor de Sherlock resuelve su propio caso." },
+      { "titulo": "Los juegos del hambre", "anio": 2012, "descripcion": "Katniss lucha por sobrevivir en una competencia mortal." }
+    ]
+  },
+  "18+": {
+    "Drama": [
+      { "titulo": "Forrest Gump", "anio": 1994, "descripcion": "Un hombre sencillo vive momentos que marcan la historia." },
+      { "titulo": "El Pianista", "anio": 2002, "descripcion": "Un músico lucha por sobrevivir durante la guerra." }
+    ],
+    "Comedia": [
+      { "titulo": "¿Qué pasó ayer?", "anio": 2009, "descripcion": "Tres amigos intentan recordar su noche en Las Vegas." },
+      { "titulo": "Mi gran boda griega", "anio": 2002, "descripcion": "Una familia griega complica el romance de su hija." }
+    ],
+    "Musical": [
+      { "titulo": "La La Land", "anio": 2016, "descripcion": "Una actriz y un pianista persiguen sus sueños en Los Ángeles." },
+      { "titulo": "El gran showman", "anio": 2017, "descripcion": "Un soñador crea un espectáculo que cambia el circo." }
+    ],
+    "Crimen": [
+      { "titulo": "The Godfather", "anio": 1972, "descripcion": "La historia de una poderosa familia mafiosa en Nueva York." },
+      { "titulo": "Pulp Fiction", "anio": 1994, "descripcion": "Varias historias de criminales se cruzan en Los Ángeles." }
+    ]
+  }
+}

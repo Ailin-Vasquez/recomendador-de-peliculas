@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recomendador de películas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="tarjeta">
+    <h1>¡Bienvenidos al cine de Ailin Vasquez Rivera!</h1>
+    <h2>Menú</h2>
+    <p>Queremos hacer de tu visita una experiencia más placentera. Ingresa tu edad y selecciona el género que más te guste, y te recomendamos tu película ideal.</p>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" min="2" max="120" placeholder="Ej. 20">
+
+    <div class="generos" id="generos">
+      <button data-genero="Drama">🎭 Drama</button>
+      <button data-genero="Comedia">😂 Comedia</button>
+      <button data-genero="Musical">🎵 Musical</button>
+      <button data-genero="Crimen">🕵️ Crimen</button>
+    </div>
+
+    <section id="resultado" class="resultado" aria-live="polite">
+      <h3>Nuestra recomendación:</h3>
+      <p id="mensaje">Ingresa tu edad y elige un género.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
